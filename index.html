@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Vietnam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f8f6;
+            color: #24332c;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #176b55;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 25px auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 35px;
+        }
+
+        .places {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        figure {
+            flex: 1 1 250px;
+            margin: 0;
+            background: white;
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        figure img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        a {
+            color: #087f5b;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #176b55;
+            color: white;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Explore Vietnam</h1>
+        <p>Discover the beauty of Vietnam</p>
+        <nav aria-label="Main navigation">
+            <a href="#places">Destinations</a>
+            <a href="#about">About Vietnam</a>
+            <a href="#resources">Resources</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Welcome to Vietnam</h2>
+            <p>
+                Vietnam is a beautiful country in Southeast Asia.
+                It is famous for its stunning landscapes, rich culture,
+                delicious food, and friendly people.
+            </p>
+        </section>
+
+        <section id="places">
+            <h2>Three Places You Should Visit</h2>
+
+            <div class="places">
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80"
+                        alt="Traditional boats and a scenic river in Vietnam">
+                    <h3>Ha Long Bay</h3>
+                    <figcaption>
+                        Famous for its beautiful limestone islands
+                        and emerald waters.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1555921015-5532091f6026?auto=format&fit=crop&w=800&q=80"
+                        alt="Colorful traditional buildings in Hoi An">
+                    <h3>Hoi An</h3>
+                    <figcaption>
+                        A charming ancient town with colorful lanterns
+                        and historic streets.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1509030450996-dd1a26dda07a?auto=format&fit=crop&w=800&q=80"
+                        alt="Scenic landscape in Vietnam">
+                    <h3>Hanoi</h3>
+                    <figcaption>
+                        The capital city, known for its history,
+                        street food, and lively old quarter.
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="tips">
+            <h2>Travel Tips</h2>
+            <ul>
+                <li>Try traditional Vietnamese food such as pho.</li>
+                <li>Bring comfortable shoes for walking.</li>
+                <li>Respect local customs and traditions.</li>
+                <li>Keep the environment clean when visiting nature.</li>
+            </ul>
+        </section>
+
+        <section id="resources">
+            <h2>Learn More</h2>
+            <p>
+                Visit the official tourism website to discover
+                more destinations and travel information.
+            </p>
+            <a href="https://vietnam.travel/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Visit Vietnam Tourism
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Explore Vietnam | HTML Lab Project</p>
+    </footer>
+
+</body>
+</html>
